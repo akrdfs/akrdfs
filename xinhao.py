@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 def sin_wave(amp, freq, time):
   return amp * np.sin(2*np.pi*freq*time)
 time = np.arange(0, 10, 0.001)
-sin1 = sin_wave(1, 2, time)
+sin1 = sin_wave(1, 10, time)
 sin2 = sin_wave(2, 5, time)
 sin3 = sin_wave(4, 1, time)
 plt.figure(figsize=(12,5))
@@ -48,8 +48,3 @@ Spyder Editor
 
 This is a temporary script file.
 """
-
-
-
-
-
